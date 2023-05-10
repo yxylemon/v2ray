@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-06 17:08:37
+# 创建时间：2023-05-10 09:00:49
 # 使用模版：ACL4SSR.ini
 # 节点数量：1
 ####################################
@@ -21,46 +21,46 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"4v2rayse.sg.10ip","type":"vmess","server":"129.150.58.52","port":36523,"cipher":"auto","uuid":"bde0a6fe-916e-4803-cdf6-58f3a5a0682a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"129.150.58.52","network":"tcp"}
+  - {"name":"🇺🇸_US_美国","type":"vmess","server":"142.4.106.243","port":52902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 4v2rayse.sg.10ip
+      - 🇺🇸_US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 4v2rayse.sg.10ip
+      - 🇺🇸_US_美国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4v2rayse.sg.10ip
+      - 🇺🇸_US_美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 4v2rayse.sg.10ip
+      - 🇺🇸_US_美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 4v2rayse.sg.10ip
+      - 🇺🇸_US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 4v2rayse.sg.10ip
+      - 🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -83,7 +83,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 4v2rayse.sg.10ip
+      - 🇺🇸_US_美国
 
 rules:
 # 本地/局域网地址
