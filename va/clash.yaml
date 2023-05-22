@@ -1,9 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-10 09:04:44
+# 创建时间：2023-05-22 21:12:54
 # 使用模版：ACL4SSR.ini
 # 节点数量：1
+# 节点类型：trojan
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,7 +22,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇺🇸_US_美国","type":"vmess","server":"38.63.0.68","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国","type":"trojan","server":"163.123.192.153","port":443,"udp":true,"password":"d69793f4-8379-41ab-91aa-e51371ca8d26","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
