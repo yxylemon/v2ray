@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-30 17:00:25
+# 创建时间：2023-05-30 17:02:55
 # 使用模版：ACL4SSR.ini
 # 节点数量：1
 # 节点类型：vmess
@@ -22,7 +22,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇺🇸_US_美国","type":"vmess","server":"104.18.133.163","port":2052,"cipher":"auto","uuid":"0227edc4-8735-4370-ac42-4e8147920f0b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer10","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"🇺🇸_US_美国","type":"vmess","server":"107.167.12.27","port":41702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
